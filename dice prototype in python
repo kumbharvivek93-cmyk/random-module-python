@@ -1,0 +1,5 @@
+# simple prototype of the dice used in games by me (vivek kumbhar)
+
+import random as rd
+
+print(rd.randint(1,6))   # this program alsways gives a random number between one to six which we can use as dice
