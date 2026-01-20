@@ -1,0 +1,62 @@
+1.install random module in your system :
+>>> pip install random
+
+
+2. after installatin:
+>>> import random module in your code editor and run
+
+// if code runs successfully then module is installed and successfully combined with pip and ready to go !
+
+// if code shows error then get help of chatgpt or youtube and install random module
+
+3.functions in random module :
+
+1] random() :
+the random function returns the random decimal value between 0 to 1
+eg.0315546151 etc.
+
+code example :
+
+import random as rd
+print(random.random())
+
+# thats all
+
+2] randint():
+the function takes range of elements eg.(x,y) as arrguments both are included and returns a random value between x and y
+
+code example :
+
+import random as rd
+print(rd.randint(1,6))
+
+# this program returns a random value between 1 and 6 also both are included
+
+3] choice();
+the choice() function takes the sequece eg.list , tup , dic etc. as arrguments and returns a random elements as output in the list or sequece
+eg."vivek"
+
+code example;
+
+import random as rd
+l=["vivek","vedant","masal","sameer","jelya"]
+print(rd.choice(l))
+
+# eg.output -> masal
+
+4] choices :
+this function takes the sequece and interger as input so it returns the n random elements in the list
+
+eg."vivek","vedant"
+
+code example :
+
+import random as rd
+l=["vivek","vedant","masal","sameer","jelya"]
+print(rd.choice(l,k=2))
+
+# eg output -> vedant ,jelya
+
+4. there are many functions but these are some useful functions of pythons random module
+
+
